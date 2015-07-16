@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ISY智能定位</string>
+    <string name="title_activity_car_map">无线智能定位</string>
+    <string name="title_activity_car_list">车辆列表</string>
+    <string name="title_carinfo">车辆信息</string>
+    <string name="title_tracking">追车模式</string>
+    <string name="title_history">轨迹回放</string>
+    <string name="title_command">下发指令</string>
+    <string name="list_item_car_name">设备名称：</string>
+    <string name="list_item_car_num">车牌号：</string>
+    <string name="list_item_terminal_num">终端编号：</string>
+    <string name="list_item_data_update_time">数据更新时间：</string>
+    <string name="list_item_address">当前位置：</string>
+    <string name="search_hint">输入车辆名称或车牌号</string>
+    <string name="action_menu_refresh">刷新</string>
+    <string name="action_menu_car_list">车辆列表</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    
+    <string name="time_title">回放时间</string>
+    <string name="time_today">今天</string>
+    <string name="time_yesterday">昨天</string>
+    <string name="time_before_yesterday">前天</string>
+    <string name="time_a_hour_before">前一个小时</string>
+    <string name="time_custom">自定义</string>
+
+    <string name="speed_title">播放速度</string>
+    <string name="speed_1">很慢</string>
+    <string name="speed_2">慢</string>
+    <string name="speed_3">一般</string>
+    <string name="speed_4">快</string>
+    <string name="speed_5">很快</string>
+</resources>

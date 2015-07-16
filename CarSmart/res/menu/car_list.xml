@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.buaair.carsmart.CarListActivity" >
+
+    
+     <item android:id="@+id/menu_search"
+            android:title="@string/search_hint"
+            android:showAsAction="ifRoom" 
+            android:icon="@drawable/search"
+            android:actionViewClass="android.widget.SearchView"  />
+     
+</menu>

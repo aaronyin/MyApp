@@ -1,0 +1,56 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-libraryjars libs/android-support-v4.jar
+-dontwarn android.support.v4.**
+-keep class android.support.v4.** { *; }
+-keep interface android.support.v4.app.** { *; }
+-keep public class * extends android.support.v4.**
+-keep public class * extends android.app.Fragment
+
+#libs文件夹下的第三方jar包，注意名称
+-libraryjars libs/Android_Location_V1.3.2.jar
+-libraryjars libs/Android_2DMapApi_V2.4.1.jar
+-libraryjars libs/AMap_Services_V2.4.0.jar
+
+-dontwarn com.amap.api.**
+-dontwarn com.aps.**
+-dontwarn com.autonavi.**
+-dontwarn com.a.a.**
+
+-keep class com.amap.api.** {*;}
+-keep class com.aps.** {*;}
+-keep class com.autonavi.** {*;}
+-keep class com.a.a.** {*;}
+
+-dontwarn com.handmark.pulltorefresh.**
+-keep class com.handmark.pulltorefresh.** {*;}
+
+-dontwarn com.dd.processbutton.**
+-keep class com.dd.processbutton.** {*;}
+
+-dontwarn com.special.ResideMenu.**
+-keep class com.special.ResideMenu.** {*;}
+
+-dontwarn com.buaair.carsmart.vo.**
+-keep class com.buaair.carsmart.vo.** {*;}
+-dontwarn com.buaair.carsmart.entity.**
+-keep class com.buaair.carsmart.entity.** {*;}

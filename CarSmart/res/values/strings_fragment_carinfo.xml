@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="carinfo_equipment_nick_name">设备名称：</string>
+    <string name="carinfo_equipment_nick_name2">名称：</string>
+    <string name="carinfo_gps_pos">位置：</string>
+    <string name="carinfo_gps_time">数据更新时间：</string>
+    <string name="carinfo_equipment_num">车辆识别号：</string>
+    <string name="carinfo_equipment_name">车牌：</string>
+    <string name="carinfo_imei">终端IMEI号：</string>
+    <string name="carinfo_terminal_type">终端类型：</string>
+    <string name="carinfo_terminal_model">终端型号：</string>
+    <string name="carinfo_sim">SIM卡号：</string>
+    <string name="carinfo_owner_name">车主姓名：</string>
+    <string name="carinfo_owner_phone">车主联系电话：</string>
+    <string name="carinfo_owner_address">车主住址：</string>
+    <string name="carinfo_in_time">服务开通时间：</string>
+    <string name="carinfo_out_time">服务结束时间：</string>
+    
+    <string name="carinfo_status">状态：</string>
+    <string name="carinfo_speed">速度：</string>
+    <string name="carinfo_time">时间：</string>
+    
+</resources>

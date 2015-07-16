@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/fragmentRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomList"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/bottomList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white2"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbCarinfo"
+            style="@style/footbar"
+            android:drawableTop="@drawable/icon_menu_carinfo_selector"
+            android:text="@string/title_carinfo" />
+
+        <RadioButton
+            android:id="@+id/rbTracking"
+            style="@style/footbar"
+            android:drawableTop="@drawable/icon_menu_tracking_selector"
+            android:text="@string/title_tracking" />
+
+        <RadioButton
+            android:id="@+id/rbHistory"
+            style="@style/footbar"
+            android:drawableTop="@drawable/icon_menu_history_selector"
+            android:text="@string/title_history" />
+
+        <RadioButton
+            android:id="@+id/rbCommand"
+            style="@style/footbar"
+            android:drawableTop="@drawable/icon_menu_command_selector"
+            android:text="@string/title_command" />
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F3F6">
+
+    <ScrollView android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="match_parent">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F0F3F6">
+		    <LinearLayout style="@style/wrap_layout" >
+		        <!-- 上圆角-->
+		        <LinearLayout style="@style/top_layout">
+		            <TextView style="@style/usertext" android:text="@string/command_terminal_model" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_terminal_model"/>
+		        </LinearLayout>
+		        
+		        <!-- 分割线 -->
+		    	<View style="@style/bg_line"/>
+		        <!-- 无圆角-->
+		       	<RelativeLayout style="@style/mid_layout" >
+		            <TextView style="@style/usertext" android:text="@string/command_work_status" android:layout_alignParentLeft="true" />
+		            <com.kyleduo.switchbutton.SwitchButton android:id="@+id/sb_work_status" style="@style/SwitchButtonStyle" android:layout_alignParentRight="true"/>
+		        </RelativeLayout>
+		        <View style="@style/bg_line"/>
+		        <!-- 无圆角-->
+		       	<LinearLayout style="@style/mid_layout" android:id="@+id/lb_work_model">
+		            <TextView style="@style/usertext" android:text="@string/command_work_model" />
+		            <TextView style="@style/usertext1" android:id="@+id/tv_work_model"/>
+		            <ImageView style="@style/img_arrow" android:contentDescription="@string/Loading"/>
+		          	<!-- <com.buaair.carsmart.view.SegmentedRadioGroup
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:id="@+id/segment_text"
+						android:checkedButton="@+id/button_one">
+						<RadioButton android:id="@id/button_one"
+							android:minWidth="45dip"
+							android:minHeight="40dip"
+							android:text="标准"
+							android:textAppearance="?android:attr/textAppearanceSmall"
+							android:button="@null"
+							android:gravity="center"
+							android:textColor="@color/radio_colors" />
+						<RadioButton android:id="@+id/button_two"
+							android:minWidth="45dip"
+							android:minHeight="40dip"
+							android:text="精准"
+							android:button="@null"
+							android:gravity="center"
+							android:textAppearance="?android:attr/textAppearanceSmall"
+							android:textColor="@color/radio_colors" />
+						<RadioButton android:id="@+id/button_three"
+							android:minWidth="45dip"
+							android:minHeight="40dip"
+							android:text="追车"
+							android:button="@null"
+							android:gravity="center"
+							android:textAppearance="?android:attr/textAppearanceSmall"
+							android:textColor="@color/radio_colors" />
+					</com.buaair.carsmart.view.SegmentedRadioGroup> -->
+		        </LinearLayout>
+		        <View style="@style/bg_line"/>
+		        <!-- 无圆角-->
+		       	<LinearLayout style="@style/mid_layout" android:id="@+id/lb_timer">
+		            <TextView style="@style/usertext" android:text="@string/command_timer" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_timer"/>
+		          	<ImageView style="@style/img_arrow" android:contentDescription="@string/Loading"/>
+		        </LinearLayout>
+		        <View style="@style/bg_line"/>
+		        <!-- 无圆角-->
+		       	<LinearLayout style="@style/bottom_layout" android:id="@+id/lb_position_count">
+		            <TextView style="@style/usertext" android:text="@string/command_postion_count" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_postion_count"/>
+		          	<ImageView style="@style/img_arrow" android:contentDescription="@string/Loading"/>
+		        </LinearLayout>
+		        <View style="@style/bg_line" android:id="@+id/lb_interval_time_line"/>
+		        <!-- 下圆角-->
+		       	<LinearLayout style="@style/bottom_layout" android:id="@+id/lb_interval_time">
+		            <TextView style="@style/usertext" android:text="@string/command_interval_time" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_interval_time"/>
+		          	<ImageView style="@style/img_arrow" android:contentDescription="@string/Loading"/>
+		        </LinearLayout>
+		             
+		    </LinearLayout>
+		
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="10dp"
+		        android:text="@string/last_command"/>
+		    
+		    <LinearLayout style="@style/wrap_layout" >
+		        <!-- 上圆角-->
+		        <LinearLayout style="@style/top_layout">
+		            <TextView style="@style/usertext" android:text="@string/command_imei" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_imei"/>
+		        </LinearLayout>
+		        
+		        <View style="@style/bg_line"/>
+		        <!-- 无圆角-->
+		       	<LinearLayout style="@style/mid_layout">
+		            <TextView style="@style/usertext" android:text="@string/command_send_detail" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_send_detail"/>
+		        </LinearLayout>
+		        <View style="@style/bg_line"/>
+		        <!-- 无圆角-->
+		       	<LinearLayout style="@style/mid_layout">
+		            <TextView style="@style/usertext" android:text="@string/command_operate_statue" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_operate_statue"/>
+		        </LinearLayout>
+		        <View style="@style/bg_line"/>
+		        <!-- 无圆角-->
+		       	<LinearLayout style="@style/mid_layout">
+		            <TextView style="@style/usertext" android:text="@string/command_operate_user" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_operate_user"/>
+		        </LinearLayout>
+		        <View style="@style/bg_line"/>
+		        <!-- 下圆角-->
+		       	<LinearLayout style="@style/bottom_layout">
+		            <TextView style="@style/usertext" android:text="@string/command_operate_time" />
+		          	<TextView style="@style/usertext1" android:id="@+id/tv_operate_time"/>
+		        </LinearLayout>
+		             
+		    </LinearLayout>
+		    
+	    </LinearLayout>
+    </ScrollView>
+    
+    <include layout="@layout/progress_wheel" />
+    
+</RelativeLayout>

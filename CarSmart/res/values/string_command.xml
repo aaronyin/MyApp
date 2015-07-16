@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="command_terminal_model">终端型号</string>
+    <string name="command_work_status">更改终端状态为已激活</string>
+    <string name="command_work_model">工作模式</string>
+    <string name="command_timer">定时时间</string>
+    <string name="command_postion_count">定位次数(次)</string>
+    <string name="command_interval_time">追车间隔时间(分钟)</string>
+    
+    <string name="last_command">最后执行的指令</string>
+    <string name="command_imei">终端IMEI号：</string>
+    <string name="command_send_detail">命令详情：</string>
+    <string name="command_operate_statue">指令状态：</string>
+    <string name="command_operate_user">操作人：</string>
+    <string name="command_operate_time">操作时间：</string>
+    
+    <string name="command_send">发送指令</string>
+    
+</resources>
+

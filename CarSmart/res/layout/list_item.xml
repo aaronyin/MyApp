@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp" >
+
+    <ImageView
+        android:id="@+id/car_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:contentDescription="@string/title_carinfo"
+        android:src="@drawable/car_icon" />
+
+    <LinearLayout
+        android:id="@+id/testItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:layout_marginRight="?android:attr/listPreferredItemPaddingRight"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/list_item_car_name_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/list_item_car_name_lb"
+                style="@style/list_item_text_top"
+                android:text="@string/list_item_car_name" />
+
+            <TextView
+                android:id="@+id/list_item_car_name"
+                style="@style/list_item_text_top" />
+
+            <TextView
+                android:id="@+id/list_item_car_num_lb"
+                style="@style/list_item_text_top"
+                android:layout_marginLeft="30dp"
+                android:text="@string/list_item_car_num" />
+
+            <TextView
+                android:id="@+id/list_item_car_num"
+                style="@style/list_item_text_top" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_item_terminal_num_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp" >
+
+            <TextView
+                android:id="@+id/list_item_terminal_num_lb"
+                style="@style/list_item_text_bottom"
+                android:text="@string/list_item_terminal_num" />
+
+            <TextView
+                android:id="@+id/list_item_terminal_num"
+                style="@style/list_item_text_bottom" />
+
+            <TextView
+                android:id="@+id/list_item_data_update_time_lb"
+                style="@style/list_item_text_bottom"
+                android:layout_marginLeft="15dp"
+                android:text="@string/list_item_data_update_time"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/list_item_data_update_time"
+                style="@style/list_item_text_bottom"
+                android:textColor="@android:color/holo_red_dark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/list_item_address_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/list_item_address_lb"
+                style="@style/list_item_text_bottom"
+                android:text="@string/list_item_address" />
+
+            <TextView
+                android:id="@+id/list_item_address"
+                style="@style/list_item_text_bottom" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#0099f1</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white2">#eeeeee</color>
+    
+    <color name="border_clo">#ccc</color>
+    <color name="text_clo">#333</color>
+    
+</resources>

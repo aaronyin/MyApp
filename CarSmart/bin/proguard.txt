@@ -1,0 +1,31 @@
+# view res/layout/wheel_vertical_view.xml #generated:2
+-keep class antistatic.spinnerwheel.WheelVerticalView { <init>(...); }
+
+# view res/layout/map_view.xml #generated:9
+-keep class com.amap.api.maps2d.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.buaair.carsmart.CarListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.buaair.carsmart.CarMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.buaair.carsmart.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.buaair.carsmart.MainActivity { <init>(...); }
+
+# view res/layout/progress_wheel.xml #generated:11
+-keep class com.buaair.carsmart.view.ProgressWheel { <init>(...); }
+
+# view res/layout/activity_login.xml #generated:123
+-keep class com.dd.processbutton.iml.ActionProcessButton { <init>(...); }
+
+# view res/layout/activity_car_list.xml #generated:45
+# view res/layout/fragment_carinfo.xml #generated:7
+-keep class com.handmark.pulltorefresh.library.PullToRefreshListView { <init>(...); }
+
+# view res/layout/fragment_command1.xml #generated:29
+-keep class com.kyleduo.switchbutton.SwitchButton { <init>(...); }
+
